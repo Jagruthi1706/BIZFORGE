@@ -1,0 +1,7 @@
+{
+  "name": "BizForge",
+  "description": "An end-to-end AI branding automation suite. Generate brand names, logos, marketing content, and design systems.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
