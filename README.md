@@ -55,14 +55,14 @@ Create a .env file in your backend directory and add your API keys:
 
 Ini, TOML
 GROQ_API_KEY=your_groq_api_key_here
+
 HUGGINGFACE_API_KEY=your_huggingface_api_key_here
+
 FLUX_API_KEY=your_flux_or_fal_api_key_here  # Optional for Logo generation upgrade
+
 4. Run the Backend Server
 Start the FastAPI application using Uvicorn:
 
-Bash
-uvicorn main:app --reload
-The API will now be running at http://127.0.0.1:8000. You can view the interactive API documentation at http://127.0.0.1:8000/docs.
 
 5. Run the Frontend
 Because the frontend uses vanilla HTML/JS and Tailwind via CDN, you don't need a complex Node.js build process.
